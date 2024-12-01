@@ -176,7 +176,7 @@ class TechNewsAutomator:
         git.push('origin', 'main')
 
 def main():
-    REPO_PATH = "/path/to/your/repo"  # Replace with your repo path
+    REPO_PATH = "/path/to/your/repo"  
     automator = TechNewsAutomator(REPO_PATH)
     
     # Create new content
